@@ -1,6 +1,6 @@
 a library package to mock process.argv of node
 
-a library package to pasre prompt to command-line style string
+a library package to pasre prompt from command-line style string to argv
 
 
 ## File size
