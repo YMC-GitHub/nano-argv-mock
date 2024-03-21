@@ -1,0 +1,2 @@
+- feat(core): parse prompt to command-line style string
+- feat(core): use string as prompt input

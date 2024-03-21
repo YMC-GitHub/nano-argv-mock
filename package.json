@@ -1,0 +1,61 @@
+{
+  "name": "nano-argv-parse",
+  "private": false,
+  "version": "1.0.0-alpha",
+  "description": "a library package to mock process.argv of node",
+  "author": "yemiancheng <ymc.github@gmail.com> (https://github.com/ymc-github)",
+  "homepage": "https://github.com/ymc-github/nano-argv-mock#readme",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/main.cjs",
+  "module": "./dist/main.js",
+  "types": "./dist/main.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/main.d.ts",
+      "import": "./dist/main.js",
+      "require": "./dist/main.cjs"
+    },
+    "./*": "./*"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "types": "tsc",
+    "test": "vitest",
+    "test-coverage": "vitest run --coverage",
+    "lint": "eslint lib/**/*ts",
+    "lint-fix": "eslint lib/**/*ts --fix",
+    "fmt-ts": "prettier lib/**/*.ts --write"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.30",
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
+    "@typescript-eslint/parser": "^7.3.1",
+    "@vitest/coverage-v8": "^1.4.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vite-plugin-banner": "^0.7.1",
+    "vite-plugin-dts": "^3.7.3",
+    "vite-plugin-eslint": "^1.8.1",
+    "vitest": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymc-github/nano-argv-mock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ymc-github/nano-argv-mock/issues"
+  },
+  "keywords": [
+    "nano-argv",
+    "mock"
+  ]
+}
