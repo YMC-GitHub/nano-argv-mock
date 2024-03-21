@@ -1,7 +1,7 @@
 {
-  "name": "nano-argv-parse",
+  "name": "nano-argv-mock",
   "private": false,
-  "version": "1.0.0-alpha",
+  "version": "1.0.0",
   "description": "a library package to mock process.argv of node",
   "author": "yemiancheng <ymc.github@gmail.com> (https://github.com/ymc-github)",
   "homepage": "https://github.com/ymc-github/nano-argv-mock#readme",
