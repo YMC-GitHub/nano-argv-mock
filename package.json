@@ -57,5 +57,6 @@
   "keywords": [
     "nano-argv",
     "mock"
-  ]
+  ],
+  "license": "MIT"
 }
